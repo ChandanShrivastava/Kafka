@@ -5,9 +5,9 @@ import json
 
 # Initialize Reddit API with authentication credentials
 reddit = praw.Reddit(
-    client_id="PSssY2fCBwf8SLSykLYjUg",  # Reddit API client ID
-    client_secret="E9A3tMBxOpLrHC830enE5wfkhTazUQ",  # Reddit API secret key
-    user_agent="sentibot"  # User agent to identify the bot
+    client_id="WmECG0EqXmkjvlpKEPAdnQ",  # Reddit API client ID
+    client_secret="Diaohuy0Sx7ttnqbrMOjLBIObChWIg",  # Reddit API secret key
+    user_agent="marketSentiment"  # User agent to identify the bot
 )
 
 # Initialize Kafka Producer to send data to Kafka topic
